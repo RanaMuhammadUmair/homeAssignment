@@ -1,25 +1,6 @@
-/*
-
-import React from 'react';
-import { Link } from 'react-router-dom'; // If using React Router
-
-const Navigation: React.FC = () => {
-    return (
-        <nav>
-            <ul>
-                <li><Link to="/clicker">Clicker</Link></li>
-                <li><Link to="/statistics">Statistics</Link></li>
-            </ul>
-        </nav>
-    );
-};
-
-export default Navigation;
-*/
-
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import './Navigation.css'; // Ensure this CSS file exists and contains the styles mentioned earlier
+import './Navigation.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMousePointer, faChartBar } from '@fortawesome/free-solid-svg-icons';
 
