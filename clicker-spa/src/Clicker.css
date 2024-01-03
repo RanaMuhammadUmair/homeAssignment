@@ -1,0 +1,12 @@
+.clicker-container {
+    /* Your styles for Clicker component */
+    text-align: center;
+    margin-top: 200px;
+}
+
+.click-me-button {
+    /* Your styles for the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
