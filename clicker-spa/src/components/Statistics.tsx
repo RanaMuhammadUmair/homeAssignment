@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Statistics.css'; // Make sure to create a corresponding Statistics.css file for styling
+import './Statistics.css';
 
 const Statistics: React.FC = () => {
     const [count, setCount] = useState(0);
@@ -8,7 +8,7 @@ const Statistics: React.FC = () => {
     useEffect(() => {
         const fetchCount = async () => {
             try {
-                const response = await axios.get('http://localhost:5141/api/clicker');
+                const response = await axios.get('http://localhost:5284/api/clicker');
                 setCount(response.data);
             } catch (error) {
                 console.error('Error fetching count:', error);

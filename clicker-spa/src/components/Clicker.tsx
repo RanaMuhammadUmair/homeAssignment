@@ -6,7 +6,7 @@ const Clicker: React.FC = () => {
     const handleButtonClick = async () => {
         try {
             // Replace with your actual API endpoint
-            await axios.post('http://localhost:5141/api/clicker');
+            await axios.post('http://localhost:5284/api/clicker');
             // Handle the response as needed, perhaps updating a state variable to trigger a re-render
         } catch (error) {
             console.error('Error incrementing count:', error);

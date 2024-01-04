@@ -1,4 +1,4 @@
-
+/* Navigation.css */
 
 .navigation {
     position: fixed;
@@ -9,7 +9,7 @@
     overflow-x: hidden;
     transition: transform 0.3s ease;
     transform: translateX(-100%);
-    background-color: #979696; /* Menu background color */
+    background-color: #979696; 
     z-index: 1000;
 }
 
